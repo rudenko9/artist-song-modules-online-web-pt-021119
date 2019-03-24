@@ -11,11 +11,8 @@ include Memorable::InstanceMethods
   attr_reader :artist
 
   @@songs = []
-
   
-  
-
-  def self.all
+def self.all
     @@songs
   end
 
